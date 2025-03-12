@@ -32,3 +32,12 @@ int main() {
     endwin();
     return 0;
 }
+
+/*
+    Input Handling -->
+    
+    ✔ Use getch() → To read a single key press.
+    ✔ Use wgetch(win) → To read input from a specific window.
+    ✔ Use keypad(win, TRUE); → To enable arrow keys and function keys.
+    ✔ Use nodelay(win, TRUE); → To make input non-blocking.
+*/
