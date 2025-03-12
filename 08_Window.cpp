@@ -13,3 +13,11 @@ int main() {
     endwin();            // Restore terminal
     return 0;
 }
+
+/*
+    Print -->
+
+    printw("Hello, PDCurses!\n");               // Print a message
+    mvprintw(5, 10, "Hello, PDCurses!");        // Print a message at a specific location
+    mvwprintw(win, 1, 1, "Test Window");        // Print text inside the window
+*/
