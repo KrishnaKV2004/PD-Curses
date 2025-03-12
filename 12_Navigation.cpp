@@ -74,3 +74,19 @@ int main() {
     endwin();
     return 0;
 }
+
+/*
+    Attributes -->
+
+    attron() and attroff() are used to apply text attributes like bold, reverse video,
+    underline, and colors to printed text.
+
+    Attribute	    Description
+
+    A_BOLD	        Makes text bold
+    A_UNDERLINE	    Underlines text
+    A_REVERSE	    Reverses foreground and background colors
+    A_DIM	        Makes text dim
+    A_STANDOUT	    Similar to reverse, highlights text
+    A_BLINK	        Makes text blink (might not work in all terminals)
+*/
