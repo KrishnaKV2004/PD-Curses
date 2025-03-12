@@ -9,10 +9,10 @@ int main() {
     int screen_height, screen_width;
     getmaxyx(stdscr, screen_height, screen_width);  // Get terminal size
 
-    int header_height = 3, header_width = screen_width;
-    int sidebar_width = screen_width / 4;
-    int content_width = screen_width - sidebar_width;
-    int content_height = screen_height - header_height;
+    int header_height = 3, header_width = screen_width; // Header takes full width
+    int sidebar_width = screen_width / 4;               // Sidebar takes 1/4 of screen
+    int content_width = screen_width - sidebar_width;   // Remaining space
+    int content_height = screen_height - header_height; // Full height minus header
 
     // Create header, sidebar, and content area
     WINDOW *header = newwin(header_height, header_width, 0, 0);
